@@ -17,10 +17,12 @@ public class Lion {
     }
 
     public int getKittens() {
+
         return feline.getKittens();
     }
 
     public boolean doesHaveMane() {
+
         return hasMane;
     }
 

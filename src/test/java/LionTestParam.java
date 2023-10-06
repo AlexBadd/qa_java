@@ -20,7 +20,7 @@ public class LionTestParam {
         this.kittensCount = kittensCount;
     }
 
-    @Parameterized.Parameters(name = "Параметры: Пол животного = {0}; Есть грива = {1}; Количество детенышей = {2}")
+    @Parameterized.Parameters(name = "Параметры: Пол животного = {0}; Есть грива = {1}; Количество львят = {2}")
     public static Object[][] setLionSex() {
         return new Object[][]{
                 {"Самец", true, 1},

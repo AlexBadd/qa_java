@@ -35,6 +35,6 @@ public class AnimalTestParam {
     @Test
     public void testAnimalGetFood() throws Exception {
         Animal animal = new Animal();
-        Assert.assertEquals("Неизвестный вид животного, используйте значение Травоядное или Хищник", listOfFood, animal.getFood(animalKind));
+        Assert.assertEquals("Неизвестный вид животного, используйте значение Травоядное или Хищники", listOfFood, animal.getFood(animalKind));
     }
 }

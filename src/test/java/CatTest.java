@@ -21,13 +21,13 @@ public class CatTest {
     public void testCatGetSound() {
         Cat cat = new Cat(feline);
         String catSound = cat.getSound();
-        Assert.assertEquals("Кошка издает звук - Мяу", "Мяу", catSound);
+        Assert.assertEquals("Кошка звучит - Мяу", "Мяу", catSound);
     }
 
     @Test
     public void testCatGetSoundMock() {
         Mockito.when(cat.getSound()).thenReturn("Мяу");
-        Assert.assertEquals("Кошка издает звук - Мяу", "Мяу", cat.getSound());
+        Assert.assertEquals("Кошка звучит - Мяу", "Мяу", cat.getSound());
     }
 
     @Test

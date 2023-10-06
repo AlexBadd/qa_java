@@ -24,7 +24,7 @@ public class LionTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void testLionClassException() {
-        new Lion(feline, "Оно");
+        new Lion(feline, "Unknown");
     }
 
     @Test

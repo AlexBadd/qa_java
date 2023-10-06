@@ -44,7 +44,7 @@ public class FelineTest {
     public void testGetKittens() {
         Feline feline = new Feline();
         int felineKittens = 1;
-        Assert.assertEquals("У кошачьих много детенышей", felineKittens, feline.getKittens());
+        Assert.assertEquals("У кошачьих несколько детенышей", felineKittens, feline.getKittens());
     }
 
     @Test

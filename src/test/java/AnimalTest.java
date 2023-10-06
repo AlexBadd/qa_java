@@ -27,7 +27,7 @@ public class AnimalTest {
     @Test
     public void testAnimalClassException() {
         try {
-            animal.getFood("Unknown");
+            animal.getFood("Неизвестно");
         } catch (Exception exception) {
             Assert.assertEquals("Неизвестный вид животного", "Неизвестный вид животного, используйте значение Травоядное или Хищник", exception.getMessage());
         }
